@@ -4,7 +4,7 @@
   <parent>
     <artifactId>telegram-plugin</artifactId>
     <groupId>com.notononoto.teamcity.telegram</groupId>
-    <version>1.3</version>
+    <version>1.4</version>
   </parent>
   <artifactId>build</artifactId>
   <packaging>pom</packaging>
@@ -18,7 +18,7 @@
       <dependency>
            <groupId>com.notononoto.teamcity.telegram</groupId>
            <artifactId>telegram-plugin-server</artifactId>
-           <version>1.3</version>
+           <version>1.4</version>
       </dependency>
   </dependencies>
   <build>
@@ -81,7 +81,7 @@
             <version>1.1.1</version>
             <configuration>
                 <description>Description of your release</description>
-                <releaseName>v1.3</releaseName>
+                <releaseName>v1.4</releaseName>
                 <tag>${project.version}</tag>
                 <servers>
                     <server>
