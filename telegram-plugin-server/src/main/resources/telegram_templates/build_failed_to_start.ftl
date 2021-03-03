@@ -2,6 +2,9 @@
 
 <#import "common.ftl" as common>
 
-<#global message>Build failed to start.
-${project.fullName}::${buildType.name} <@common.short_build_info build/>, agent ${agentName} ${var.buildShortStatusDescription}
-${link.buildResultsLink}</#global>
+<#global message>❌ 빌드 시작 실패!
+프로젝트 : ${project.fullName}
+빌드타입 : ${buildType.name} 
+빌드번호 : <@common.short_build_info build/>
+에이전트 : ${agentName} ${var.buildShortStatusDescription}
+</#global>
