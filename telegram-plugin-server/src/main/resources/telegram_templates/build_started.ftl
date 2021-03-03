@@ -2,6 +2,8 @@
 
 <#import "common.ftl" as common>
 
-<#global message>Build started<#if build.triggeredBy.triggeredByUser> (triggered by ${build.triggeredBy.user.descriptiveName})</#if>.
-${project.fullName}::${buildType.name} <@common.short_build_info build/>, agent ${agentName}
+<#global message>빌드 시작됨!<#if build.triggeredBy.triggeredByUser> (빌드 요청자 : ${build.triggeredBy.user.descriptiveName})</#if>
+프로젝트 : ${project.fullName}::${buildType.name} 
+빌드번호 : <@common.short_build_info build/>
+에이전트 : ${agentName} 
 ${link.buildResultsLink}</#global>
