@@ -11,8 +11,8 @@
   <properties>
       <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
       <teamcity.telegram-plugin.plugin.version>${version}</teamcity.telegram-plugin.plugin.version>
-      <teamcity.telegram-plugin.plugin.vendorName>ItgLvb</teamcity.telegram-plugin.plugin.vendorName>
-      <teamcity.telegram-plugin.plugin.vendorUrl>https://github.com/ItgLvb/teamcity-telegram-plugin</teamcity.telegram-plugin.plugin.vendorUrl>
+      <teamcity.telegram-plugin.plugin.vendorName>rlatn1234</teamcity.telegram-plugin.plugin.vendorName>
+      <teamcity.telegram-plugin.plugin.vendorUrl>https://github.com/rlatn1234/teamcity-telegram-plugin</teamcity.telegram-plugin.plugin.vendorUrl>
   </properties>
   <dependencies>
       <dependency>

@@ -6,7 +6,7 @@ Added support :
 - Emoji
 
 ## Installation
-To install plugin [download zip archive](https://github.com/ItgLvb/teamcity-telegram-plugin/releases) it and copy it to Teamcity \<data directory\>/plugins (it is $HOME/.BuildServer/plugins under Linux and C:\ProgramData\JetBrains\TeamCity\plugins under Windows).
+To install plugin [download zip archive](https://github.com/rlatn1234/teamcity-telegram-plugin/releases) it and copy it to Teamcity \<data directory\>/plugins (it is $HOME/.BuildServer/plugins under Linux and C:\ProgramData\JetBrains\TeamCity\plugins under Windows).
 For more information, take a look at [official documentation](https://confluence.jetbrains.com/display/TCD10/Installing+Additional+Plugins)
 
 ## Configuration
