@@ -6,5 +6,6 @@
 프로젝트 : ${project.fullName}
 빌드타입 : ${buildType.name} 
 빌드번호 : <@common.short_build_info build/>
-에이전트 : ${agentName} ${var.buildShortStatusDescription}
+에이전트 : ${agentName} 
+상태 : ${var.buildShortStatusDescription}
 </#global>
