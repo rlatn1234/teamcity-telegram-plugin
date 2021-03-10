@@ -6,7 +6,7 @@
 <#if build.triggeredBy.triggeredByUser> 
 빌드 요청자 : ${build.triggeredBy.user.descriptiveName}</#if>
 프로젝트 : ${project.fullName}
-빌드 : ${buildType.name} 
+빌드 : ${buildType.name}
 빌드번호 : <@common.short_build_info build/>
 에이전트 : ${agentName} 
 </#global>
